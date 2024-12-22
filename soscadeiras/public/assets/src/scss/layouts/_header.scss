@@ -1,0 +1,119 @@
+@use '../abstracts/variables' as vars;
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (max-width: 1920px) {
+    nav {
+        padding: 56px 0px 0px 144px;
+    }
+
+    .top-header {
+        width: 100%;
+        max-height: 40px;
+        padding: 0px 144px 0px 144px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 0px 24px;
+        background: vars.$azulsos;
+        color: vars.$branco;
+    }
+
+    .logo {
+        margin-right: 52px;
+    }
+
+    .info div {
+        display: inline-flex;
+        margin: 12px 0px 0px 0px;
+    }
+
+    .info div:first-child {
+        display: inline-flex;
+        margin-right: 24px;
+    }
+
+    .bloco-menu {
+        margin: 51px 0px 16px 144px;
+    }
+
+    .contatos {
+        float: left;
+        width: 460px;
+    }
+
+    .social {
+        float: right;
+        width: 261px;
+        margin-right: 125px;
+    }
+
+    .social ul li {
+        display: inline-block;
+        margin: 5px 0px 0px 29px;
+    }
+
+    .social ul li i {
+        float: right;
+    }
+
+
+    .navbar-nav .nav-item {
+        width: var(--sds-responsive-device-width);
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 0px var(--sds-size-space-600);
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        max-height: 40px;
+    }
+
+    .navbar-nav li:last-child {
+        margin-left: 5%;
+    }
+}
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (max-width: 1024px) {
+    .top-header {
+        width: 100%;
+        height: 40px;
+        padding: 0px 144px 0px 144px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 0px 24px;
+        background: vars.$azulsos;
+        color: vars.$branco;
+    }
+
+    .social ul li {
+        display: inline-flex;
+        margin: 5px 20px 0px 20px;
+    }
+
+    .info div {
+        display: inline-flex;
+        margin: 12px 0px 0px 0px;
+    }
+
+    .logo {
+        margin: 19px 65px 0px 144px;
+    }
+}
+
+/* Medium devices such as tablets (768px) */
+@media only screen and (max-width: 768px) {
+    .top-header {
+        display: none;
+    }
+
+    .social ul li,
+    .social ul li a i svg {
+        display: none;
+    }
+
+    .info div {
+        display: inline-block;
+    }
+}

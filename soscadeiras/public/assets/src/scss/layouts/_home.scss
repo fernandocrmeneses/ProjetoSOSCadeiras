@@ -1,0 +1,147 @@
+@use '../abstracts/variables' as vars;
+@media only screen and (max-width: 1920px) {
+    .banner {
+        max-height: 617px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .itens-servicos {
+        display: flex;
+        flex-wrap: wrap;
+        /* Permite quebra de linha */
+        justify-content: center;
+        /* Centraliza os elementos horizontalmente */
+        gap: 30px;
+        /* Espaçamento entre os itens */
+        width: 100%;
+        /* Garante que a largura seja responsiva */
+        max-width: 1250px;
+        /* Limita a largura máxima */
+        margin: 0 auto;
+        /* Centraliza o container */
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .quem-somos {
+        background: vars.$azulsos;
+        width: 100%;
+        clear: both;
+    }
+
+    .section-title {
+        color: vars.$cinzaazuladosos;
+        font-size: 45px;
+        font-weight: vars.$global_cabecalho_font_weight;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .info-box {
+        background-color: transparent;
+        text-align: left;
+    }
+
+    .info-box h3 {
+        font-weight: vars.$global_cabecalho_font_weight;
+        font-size: vars.$global_h3_titulos_size;
+        margin-bottom: 1rem;
+        color: vars.$branco;
+    }
+
+    .info-box p {
+        font-size: 16px;
+        color: vars.$cinza4sos;
+        width: 100%;
+        max-width: 330px;
+    }
+
+    .info-box strong {
+        font-weight: bold;
+    }
+
+    .botao-saiba-mais {
+        margin-left: 6% !important;
+    }
+
+    .cases {
+        width: 100%;
+        background-color: vars.$cinza4sos;
+    }
+
+    .titulos-azuis {
+        color: vars.$cinzaazuladosos;
+        font-size: vars.$global_h3_titulos_size;
+        font-style: normal;
+        font-weight: vars.$global_cabecalho_font_weight;
+        line-height: normal;
+        text-align: center;
+
+    }
+
+    .titulos-azuis .texto-azul-claro {
+        color: vars.$cinza3sos;
+    }
+
+    .paragrafo-titulo {
+        font-size: vars.$global_font_size_texto;
+        font-style: normal;
+        font-weight: vars.$global_font_weight;
+        line-height: normal;
+    }
+
+    .paragrafo-titulo.paragrafo-servicos {
+        margin-left: 41px;
+    }
+
+    .cases .cases-content {
+        padding-top: 40px;
+    }
+
+
+}
+
+/*tablets*/
+@media only screen and (max-width: 752px) {}
+
+/*smartphone*/
+@media only screen and (max-width: 428px) {
+    .banner {
+        max-height: 617px;
+        width: 100%;
+    }
+
+    .itens-servicos {
+        width: 100%;
+        max-height: 2630px;
+    }
+
+    .cards-esquerda,
+    .cards-direita {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .info-box {
+        text-align: center;
+    }
+
+    .info-box p {
+        max-width: 100% !important;
+        margin: auto 0;
+    }
+
+    .botao-saiba-mais {
+        margin-left: 0% !important;
+    }
+
+    .info-box h3 {
+        margin-top: 10px;
+    }
+}
