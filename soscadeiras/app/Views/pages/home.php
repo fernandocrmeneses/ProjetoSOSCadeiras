@@ -273,17 +273,81 @@
     </div>
 </div>
 <div class="beneficios">
-    <div class="row">
-        <div class="col-2 col-sm-1 col-md-2"></div>
-        <div class="col-12 col-sm-4 col-md-3">
-            <h4 class="titulos-laranjas">
-                Beneficios ao contratar a SOS Cadeiras
-            </h4>
+    <div class="beneficios-content container">
+        <div class="row">
+            <div class="col-2 col-sm-1 col-md-2"></div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <h4 class="titulos-laranjas">
+                    Beneficios ao contratar a SOS Cadeiras
+                </h4>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6">
+                <p class="paragrafo-titulo paragrafo-servicos">
+                    Com a SOS Cadeiras, você encontra qualidade, expertise e as melhores soluções para suas cadeiras de escritório.
+                </p>
+            </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-7">
-            <p class="paragrafo-titulo paragrafo-servicos">
-                Com a SOS Cadeiras, você encontra qualidade, expertise e as melhores soluções para suas cadeiras de escritório.
-            </p>
+        <div class="row align-items-center">
+            <div class="col-12 col-md-2"></div>
+            <div class="col-12 col-md-6">
+                <div class="lista-beneficios">
+                    <ul>
+                        <li class="item">
+                            <div class="icons caixa-ferramenta"></div>
+                            <div class="texto">
+                                <h3>Reforma e manutenção de qualidade</h3>
+                                <p>Nossas reformas utilizam materiais de alta durabilidade e variedade de tecidos, restaurando a aparência e o conforto das suas cadeiras.</p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="icons homem"></div>
+                            <div class="texto">
+                                <h3>Profissionais Especializados</h3>
+                                <p>Nossa equipe é qualificada para garantir a melhor performance em manutenção e conservação, aumentando a vida útil de cada peça.</p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="icons folha"></div>
+                            <div class="texto">
+                                <h3>Economia e Sustentabilidade</h3>
+                                <p>Oferecemos soluções de aluguel, reforma e reposição, evitando o descarte desnecessário e reduzindo custos para sua empresa.</p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="icons sofa"></div>
+                            <div class="texto">
+                                <h3>Conforto e Ergonomia</h3>
+                                <p>Asseguramos que suas cadeiras atendam aos padrões de ergonomia, melhorando o bem-estar e a produtividade dos colaboradores.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-2 text-center">
+                <div class="cadeira-vetor">
+                    <img src="<?= base_url('dist/image/home/cadeira.svg'); ?>" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="transformacoes">
+    <div class="transformacoes-content container">
+        <div class="row">
+            <div class="col-2 col-sm-1 col-md-2"></div>
+            <div class="col-12 col-sm-4 col-md-3">
+                <h4 class="titulos-azuis">
+                    <span class="texto-azul-claro">Transformações que falam por si</span>
+                </h4>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6">
+                <p class="paragrafo-titulo paragrafo-servicos">
+                    Veja como cadeiras desgastadas ganharam vida nova nas mãos da nossa equipe. Descubra o impacto de uma reforma bem-feita e inspire-se para renovar seu espaço de trabalho.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+
         </div>
     </div>
 </div>

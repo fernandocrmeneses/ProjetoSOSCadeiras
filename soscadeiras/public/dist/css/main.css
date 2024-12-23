@@ -714,6 +714,73 @@ i {
     border: none;
     margin-top: 52px;
   }
+  .beneficios .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .beneficios .row.align-items-center {
+    align-items: center;
+  }
+  .beneficios .lista-beneficios ul {
+    list-style: none;
+    padding: 0;
+  }
+  .beneficios .lista-beneficios li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .beneficios .lista-beneficios .item {
+    margin: 28px 0px 0px 0px;
+  }
+  .beneficios .lista-beneficios div {
+    display: inline-block;
+  }
+  .beneficios .lista-beneficios .item .texto {
+    max-width: 455px;
+    padding: 0px 16px;
+  }
+  .beneficios .lista-beneficios h3 {
+    color: #23a6f0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .beneficios .lista-beneficios p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .beneficios .cadeira-vetor img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .beneficios .lista-beneficios ul li.item .icons {
+    background: url("../image/sprites/icons_beneficios.png") no-repeat 0px 0px;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  .beneficios .lista-beneficios ul li.item .icons.caixa-ferramenta {
+    background-position: -159px 0px;
+  }
+  .beneficios .lista-beneficios ul li.item .icons.homem {
+    background-position: -79px 0px;
+  }
+  .beneficios .lista-beneficios ul li.item .icons.folha {
+    background-position: -238px 0px;
+  }
+  .beneficios .lista-beneficios ul li.item .icons.sofa {
+    background-position: 0px 0px;
+  }
+  .transformacoes {
+    width: 100%;
+    background-color: #f4f4f9;
+  }
+  .transformacoes-content {
+    padding: 40px 0px;
+  }
 }
 /*tablets*/
 /*smartphone*/
