@@ -72,14 +72,24 @@
         background-color: vars.$cinza4sos;
     }
 
-    .titulos-azuis {
-        color: vars.$cinzaazuladosos;
+    .titulos-azuis,
+    .titulos-laranjas {
+
         font-size: vars.$global_h3_titulos_size;
         font-style: normal;
         font-weight: vars.$global_cabecalho_font_weight;
         line-height: normal;
         text-align: center;
 
+    }
+
+    .titulos-azuis {
+        color: vars.$cinzaazuladosos;
+    }
+
+    .titulos-laranjas {
+        color: vars.$laranjasos;
+        text-align: left;
     }
 
     .titulos-azuis .texto-azul-claro {
@@ -98,10 +108,38 @@
     }
 
     .cases .cases-content {
-        padding-top: 40px;
+        padding: 40px 0px;
     }
 
+    .menu-button.btn-custom.default.todas-avaliacoes {
+        margin-left: 50px;
+    }
 
+    .empresas {
+        background-color: vars.$branco;
+        width: 100%;
+    }
+
+    .empresas .empresas-content {
+        padding: 52px 0px;
+    }
+
+    .empresas .empresas-content .empresas-parceiras {
+        padding: 40px 0px 40px 0px
+    }
+
+    .empresas .empresas-content #thales {
+        padding-top: 10px;
+    }
+
+    .empresas .empresas-content .bottom-empresas {
+        width: 50%;
+        height: 5px;
+        display: block;
+        background-color: vars.$cinza3sos;
+        border: none;
+        margin-top: 52px;
+    }
 }
 
 /*tablets*/
@@ -143,5 +181,32 @@
 
     .info-box h3 {
         margin-top: 10px;
+    }
+
+    .titulos-azuis,
+    .titulos-laranjas {
+
+        font-size: vars.$global_h3_titulos_size;
+        font-style: normal;
+        font-weight: vars.$global_cabecalho_font_weight;
+        line-height: normal;
+        text-align: center;
+
+    }
+
+    .paragrafo-titulo.paragrafo-servicos {
+        text-align: center;
+        margin: auto 0;
+        display: flex;
+        line-height: 30px;
+        padding: 40px 0px;
+    }
+
+    .empresas .empresas-content .empresas-parceiras-smartphone {
+        padding-top: 40px;
+    }
+
+    .empresas .empresas-content .bottom-empresas {
+        width: 100%;
     }
 }

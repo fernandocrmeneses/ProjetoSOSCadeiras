@@ -4,10 +4,14 @@
         display: inline-flex;
     }
 
-    .card {
-        background-color: vars.$branco;
+    .card,
+    .card-message {
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card {
+        background-color: vars.$branco;
         width: 100%;
         max-width: 442px;
         height: 168px;
@@ -56,6 +60,50 @@
 
     .card:hover .link-laranja {
         display: block;
+    }
+
+    /*Card de Mensagens */
+    .card-message {
+        width: 100%;
+        max-width: 206px;
+        background-color: vars.$branco;
+        margin: 0px 22px 0px 0px;
+    }
+
+    .card-message .card-message-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0px;
+    }
+
+    .card-message .card-message-header span {
+        margin: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .card-message .card-message-body {
+        color: vars.$azul1sos;
+        text-align: center;
+        font-size: vars.$global_font_size;
+        font-style: italic;
+        font-weight: vars.$global_font_weight;
+        line-height: normal;
+        padding: 10px;
+    }
+
+    .card-message .autor {
+        color: vars.$azul2;
+        font-weight: vars.$global_cabecalho_font_weight;
+    }
+
+    .cards-content {
+        margin: 0px 0px 0px 50px;
+        width: 100%;
+        max-width: 1150px;
+        display: inline-flex;
+
     }
 }
 
@@ -106,5 +154,16 @@
         font-size: 12px;
         font-weight: bold;
         margin-top: 8px;
+    }
+
+    .cards-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin:auto 0;
+        height: auto;
+        gap: 8px;
+        width: 100%;
     }
 }

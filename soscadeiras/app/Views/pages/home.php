@@ -6,13 +6,13 @@
 <div class="itens-servicos container">
     <div class="row">
         <div class="col-2 col-sm-1 col-md-1"></div>
-        <div class="col-8 col-sm-4 col-md-3">
+        <div class="col-12 col-sm-4 col-md-3">
             <h4 class="titulos-azuis">
                 Soluções <span class="texto-azul-claro">sob medida</span><br />
                 para cada necessidade
             </h4>
         </div>
-        <div class="col-8 col-sm-6 col-md-7">
+        <div class="col-12 col-sm-6 col-md-7">
             <p class="paragrafo-titulo paragrafo-servicos">
                 Cuidados vão além da estética: preservam o conforto, a funcionalidade e prolongam a vida útil das suas cadeiras. Oferecemos reformas, manutenção, locação e venda para renovar seu espaço com rapidez e qualidade.
             </p>
@@ -132,26 +132,158 @@
 <div class="cases">
     <div class="cases-content container">
         <div class="row">
-            <div class="col-8 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
                 <h4 class="titulos-azuis">
                     <span class="texto-azul-claro">O que nossos</span> clientes <br />
                     estão dizendo <span class="texto-azul-claro">?</span>
                 </h4>
             </div>
-            <div class="col-8 col-sm-8 col-md-8 col-lg-8">
-                <p class="paragrafo-titulo">
+            <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+                <p class="paragrafo-titulo paragrafo-servicos">
                     Na SOS Cadeiras, a satisfação dos nossos clientes é nossa maior conquista. Confira alguns depoimentos e experiências de nossos clientes.
                 </p>
             </div>
         </div>
-        <div class="row">
-            <!--TODO: Cards Depoimentos-->
+        <div class="cards-content">
+            <div class="card-message">
+                <div class="card-message-header">
+                    <span>
+                        <img src="<?= base_url('dist/image/aspas_card_message.svg'); ?>" />
+                    </span>
+                </div>
+                <div class="card-message-body">
+                    <p>"Super indico, fui atendido com sorriso no rosto! Ótima qualidade, sem falar da honestidade em apenas ajustar a cadeira sem alegar alguma quebra. Sentimento de dono em preservar o cliente. Neste ramo, bom atendimento, presteza e preço justo são o que procuramos."</p>
+                    <span class="autor">Janio Almeida</span>
+                </div>
+            </div>
+
+            <div class="card-message">
+                <div class="card-message-header">
+                    <span>
+                        <img src="<?= base_url('dist/image/aspas_card_message.svg'); ?>" />
+                    </span>
+                </div>
+                <div class="card-message-body">
+                    <p>"Achei que teria que comprar uma nova cadeira gamer, mas encontrei a solução nessa empresa. Super educados e solícitos, me responderam todas as dúvidas por WhatsApp e fui muito bem atendida."</p>
+                    <span class="autor">Mirian Neri</span>
+                </div>
+            </div>
+            <div class="card-message">
+                <div class="card-message-header">
+                    <span>
+                        <img src="<?= base_url('dist/image/aspas_card_message.svg'); ?>" />
+                    </span>
+                </div>
+                <div class="card-message-body">
+                    <p>“Ótimo atendimento! Meninos super educados e prestativos.Excelente serviço. Boas empresas se fazem com bons profissionais, mas acima de tudo com bom atendimento ao cliente.Obrigada SOS Cadeiras”</p>
+                    <span class="autor">Erika Camargo</span>
+                </div>
+            </div>
+
+            <div class="card-message">
+                <div class="card-message-header">
+                    <span>
+                        <img src="<?= base_url('dist/image/aspas_card_message.svg'); ?>" />
+                    </span>
+                </div>
+                <div class="card-message-body">
+                    <p>“Experiência surpreendente, atendimento via WhatsApp conta com profissional super qualificado e atencioso(a)!”</p>
+                    <span class="autor">Isaias Romulo</span>
+                </div>
+            </div>
+            <div class="card-message">
+                <div class="card-message-header">
+                    <span>
+                        <img src="<?= base_url('dist/image/aspas_card_message.svg'); ?>" />
+                    </span>
+                </div>
+                <div class="card-message-body">
+                    <p>"Muito satisfeita com a qualidade do serviço e atendimento diferenciado. Como estavam com muita demanda de trabalho, foram transparentes ao comunicar o tempo de entrega e, gentilmente, disponibilizaram outra cadeira para usar no período."</p>
+                    <span class="autor">Alessandra Menke</span>
+                </div>
+            </div>
         </div>
         <div class="row">
             <div class="col-2 col-sm-4 col-md-4"></div>
-            <div class="col-8 col-sm-4 col-md-8 text-center mt-4">
-                <a class="menu-button btn-custom default">Veja todas as avaliações</a>
+            <div class="col-7 col-sm-4 col-md-8 text-center mt-4">
+                <a class="menu-button btn-custom default todas-avaliacoes">Veja todas as avaliações</a>
             </div>
             <div class="col-1 col-sm-4 col-md-4"></div>
         </div>
     </div>
+</div>
+<div class="empresas">
+    <div class="empresas-content container">
+        <h4 class="titulos-azuis"><span class="texto-azul-claro">Conheça as</span> empresas que confiam
+            <span class="texto-azul-claro">em nossos serviços</span>
+        </h4>
+        <div class="row">
+            <div class="col-4 col-sm-4 col-md-1"></div>
+            <div class="col-4 col-sm-4 col-md-1"></div>
+            <div class="col-4 col-sm-4 col-md-1"></div>
+            <div class="col-12 col-sm-4 col-md-2 d-flex justify-content-center text-center">
+                <a href="#">
+                    <img src="<?= base_url('dist/image/home/sao_camilo.svg'); ?>" alt="São camilo" title="São camilo" class="empresas-parceiras" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-1 col-md-2 d-flex justify-content-center text-center">
+                <a href="#">
+                    <img src="<?= base_url('dist/image/home/fisk.svg'); ?>" alt="" title="" class="empresas-parceiras" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-4 col-md-2 d-flex justify-content-center" id="thales">
+                <a href="#">
+                    <img src="<?= base_url('dist/image/home/thales.svg'); ?>" alt="" title="" class="empresas-parceiras" />
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-3"></div>
+            <div class="col-12 col-sm-2 col-md-2 d-flex justify-content-center">
+                <a href="#">
+                    <img src="<?= base_url('dist/image/home/colegio_oshiman.svg'); ?>" alt="" title="" class="empresas-parceiras-smartphone" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-2 col-md-2 d-flex justify-content-center">
+                <a href="#">
+                    <img src="<?= base_url('dist/image/home/friboi.svg'); ?>" alt="" title="" class="empresas-parceiras-smartphone" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-2 col-md-2 d-flex justify-content-center">
+                <a href="#">
+                    <img src="<?= base_url('dist/image/home/bradesco.svg'); ?>" alt="" title="" class="empresas-parceiras-smartphone" />
+                </a>
+            </div>
+
+        </div>
+        <!-- <div class="row">
+            <div class="col-2 col-sm-2 col-md-3"></div>
+            <div class="col-2 col-sm-2 col-md-2"></div>
+            <div class="col-2 col-sm-2 col-md-2 d-flex justify-content-center text-center">
+                <a href="#">
+                    <img src="<?= base_url('dist/image/home/tempo.svg'); ?>" alt="" title="" />
+                </a>
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-1"></div>
+            <div class="col-2 col-sm-2 col-md-2"></div>
+            <hr class="d-flex justify-content-center bottom-empresas" />
+        </div>
+    </div>
+</div>
+<div class="beneficios">
+    <div class="row">
+        <div class="col-2 col-sm-1 col-md-2"></div>
+        <div class="col-12 col-sm-4 col-md-3">
+            <h4 class="titulos-laranjas">
+                Beneficios ao contratar a SOS Cadeiras
+            </h4>
+        </div>
+        <div class="col-12 col-sm-6 col-md-7">
+            <p class="paragrafo-titulo paragrafo-servicos">
+                Com a SOS Cadeiras, você encontra qualidade, expertise e as melhores soluções para suas cadeiras de escritório.
+            </p>
+        </div>
+    </div>
+</div>
