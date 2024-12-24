@@ -1,2 +1,103 @@
-footer {
+@use '../abstracts/variables' as vars;
+@media only screen and (max-width: 1920px) {
+    .rodape {
+        font-size: vars.$global_font_size;
+        font-weight: vars.$global_font_weight;
+        color: vars.$cinzaazuladosos;
+    }
+
+    .rodape .logo-texto {
+        padding: 40px 0px;
+    }
+
+    .rodape .logo-texto p {
+        max-width: 247px;
+        width: 100%;
+        margin: 24px 0px 0px 0px;
+    }
+
+    .rodape .titulos-laranjas {
+        color: vars.$laranjasos;
+        font-size: vars.$global_cabecalho_font_size;
+        font-weight: vars.$global_cabecalho_font_weight;
+        padding-top: 40px;
+    }
+
+    .rodape .titulos-laranjas .bullet {
+        background: url("../image/sprites/icons_footer.png") no-repeat 0px 0px;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-bottom: -7px;
+    }
+
+    .rodape .titulos-laranjas .bullet.bullet-planet {
+        background-position: -40px 0px;
+    }
+
+    .rodape .titulos-laranjas .bullet.bullet-download {
+        background-position: -75px 0px;
+    }
+
+    .rodape .titulos-laranjas .bullet.bullet-contrato {
+        background-position: 0px 0px;
+    }
+
+    .rodape .titulos-laranjas .bullet.bullet-politica {
+        background-position: -115px 0px;
+    }
+
+    .rodape ul li a {
+        color: vars.$cinzaazuladosos;
+        text-decoration: none;
+    }
+
+    .rodape ul li a:hover {
+        color: vars.$azulsos;
+        text-decoration: none;
+    }
+
+    .rodape .d-flex.gap-3 a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .list-paginas li {
+        list-style: none;
+        margin: 12px 0px;
+    }
+
+    .social-footer a {
+        padding-right: 9px;
+    }
+
+    .social-titulo {
+        font-size: vars.$global_cabecalho_font_size;
+        font-weight: vars.$global_cabecalho_font_weight;
+        color: vars.$cinza3sos;
+    }
+
+    .texto-azul-escuro {
+        color: vars.$azulsos;
+    }
+
+    .copyright {
+        margin-top: 46px;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 428px) {
+    .titulos-laranjas {
+        text-align: center;
+    }
+
+    .list-paginas {
+        text-align: center;
+    }
+
+    .rodape .logo-texto p {
+        width: 428px !important;
+    }
 }

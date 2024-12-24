@@ -1,0 +1,55 @@
+@use '../abstracts/variables' as vars;
+@media only screen and (max-width: 1920px) {
+    .form {
+        background-color: vars.$branco;
+        border-radius: 5px 5px;
+        border: solid 1px vars.$azul1sos;
+        max-width: 449px;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .form .label-default {
+        color: vars.$cinza3sos;
+        font-size: vars.$global_font_size_texto;
+        font-weight: vars.$global_cabecalho_font_weight;
+    }
+
+    .form .rotulo {
+        color: vars.$azul2;
+        font-style: italic;
+        font-size: vars.$global_font_size_texto;
+        font-weight: vars.$global_font_weight;
+    }
+
+    .form .checkbox input {
+        border-radius: 15px 15px;
+        border: solid 1px vars.$azul1sos;
+    }
+
+    .form .checkbox input[type="checkbox"] {
+
+        margin: 0px 12px 0px 0px;
+    }
+
+    .form .btn-warning {
+        font-size: vars.$global_font_size;
+        background-color: vars.$laranjasos;
+        border-color: vars.$laranja1sos;
+    }
+
+    .form .btn-warning:hover {
+        background-color: vars.$laranjasos;
+        border-color: vars.$laranja1sos;
+    }
+
+    .paragrafo-contato{
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 428px) {}

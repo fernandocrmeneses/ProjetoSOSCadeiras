@@ -225,6 +225,73 @@
     .transformacoes-content {
         padding: 40px 0px;
     }
+
+    .transformacoes-content .row .col-md-3 {
+        width: 20%;
+    }
+
+    .transformacoes-content .row .antes-depois .cadeira_hover {
+        display: none;
+        width: 231px;
+        height: auto;
+        // margin: -5px 0px 0px -6px;
+    }
+
+    .transformacoes-content .row .antes-depois .cadeira {
+        width: 235px;
+        height: auto;
+        z-index: 999;
+        // margin: -5px 0px 0px -6px;
+    }
+
+    .transformacoes-content .row .antes-depois:hover .cadeira_hover {
+        display: block;
+    }
+
+    .transformacoes-content .row .antes-depois:hover .cadeira {
+        display: none;
+    }
+
+    .transformacoes-content .row .antes-depois p {
+        color: vars.$azul2;
+    }
+
+    .transformacoes-content .row .antes-depois:hover strong {
+        color: vars.$laranja0sos;
+    }
+
+    .contato-home {
+        width: 100%;
+        background-color: vars.$azulsos;
+    }
+
+    .contato-home-content {
+        padding: 40px 0px;
+    }
+
+    .contato-home-content .row.background-claro {
+        background-color: vars.$azul2;
+        border-radius: 8px 8px;
+        border: solid 1px vars.$azul2;
+        padding: 32px;
+        max-width: 1016px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .contato-home-content .textos-contato {
+        max-width: 261px;
+        width: 100%;
+        position: relative;
+        left: 224px;
+        top: 131px;
+    }
+
+    .contato-home-content .paragrafo-contato {
+        color: vars.$branco;
+        font-weight: vars.$global_cabecalho_font_weight;
+        font-size: vars.$global_font_size_texto;
+    }
 }
 
 /*tablets*/
@@ -295,5 +362,15 @@
         width: 100%;
     }
 
+    .transformacoes-content .row .col-md-3 {
+        width: 100% !important;
+    }
 
+    .beneficios .lista-beneficios ul li.item .icons {
+        display: none;
+    }
+
+    .beneficios .beneficios-content .titulos-laranjas {
+        text-align: center;
+    }
 }
