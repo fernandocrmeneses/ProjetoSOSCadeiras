@@ -1,0 +1,47 @@
+@use '../abstracts/variables' as vars;
+@media only screen and (max-width: 1920px) {
+    .servicos {
+        padding: 40px 0px;
+    }
+
+    .servicos .banner-servicos {
+        max-width: 748px;
+        width: 100%;
+    }
+
+    .servicos .paragrafos {
+        padding-bottom: 40px;
+        color: vars.$azulsos;
+    }
+
+    .servicos .lista-caracteristicas {
+        list-style: none;
+    }
+
+    .servicos .lista-caracteristicas li {
+        padding: 32px 0px;
+        font-size: vars.$global_font_size_texto;
+        font-style: normal;
+        font-weight: vars.$global_font_weight;
+        line-height: normal;
+        color: vars.$azulsos;
+    }
+
+    .servicos .bullet {
+        background: url("../image/sprites/icons_bullet_orange01.png") no-repeat 0px 0px;
+        width: 24px;
+        height: 24px;
+        margin: 0px 16px -7px 0px;
+        display: inline-block;
+    }
+
+    .servicos .bullet-check {
+        background-position: -148px 0px;
+    }
+
+    .explicacao-servico {}
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 428px) {}

@@ -1,0 +1,239 @@
+CRITICAL - 2024-12-25 19:22:41 --> ParseError: syntax error, unexpected single-quoted string "paragrafos", expecting "]"
+[Method: GET, Route: sosexpress]
+in APPPATH\Controllers\SOSExpressController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\soscadeiras\\app\\Controllers\\SOSExpressController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SOSExpressController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SOSExpressController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\SOSExpressController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 20:56:15 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\pages\servicos.php on line 128.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 3 APPPATH\Controllers\SOSExpressController.php(76): view('pages/servicos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 20:56:34 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\pages\servicos.php on line 128.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 3 APPPATH\Controllers\SOSExpressController.php(76): view('pages/servicos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 20:57:07 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\pages\servicos.php on line 128.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 3 APPPATH\Controllers\SOSExpressController.php(76): view('pages/servicos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 20:57:40 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\pages\servicos.php on line 128.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 3 APPPATH\Controllers\SOSExpressController.php(76): view('pages/servicos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 20:57:59 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\pages\servicos.php on line 128.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 3 APPPATH\Controllers\SOSExpressController.php(76): view('pages/servicos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 21:04:24 --> ErrorException: Array to string conversion
+[Method: GET, Route: manutencao-preventiva]
+in APPPATH\Views\pages\servicos.php on line 44.
+ 1 APPPATH\Views\pages\servicos.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 5 APPPATH\Controllers\ManutencaoPreventivaController.php(80): view('pages/servicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ManutencaoPreventivaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManutencaoPreventivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 21:06:01 --> ErrorException: Array to string conversion
+[Method: GET, Route: manutencao-preventiva]
+in APPPATH\Views\pages\servicos.php on line 44.
+ 1 APPPATH\Views\pages\servicos.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 5 APPPATH\Controllers\ManutencaoPreventivaController.php(80): view('pages/servicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ManutencaoPreventivaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManutencaoPreventivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 21:20:15 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: manutencao-preventiva]
+in APPPATH\Views\pages\servicos.php on line 53.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 4 APPPATH\Controllers\ManutencaoPreventivaController.php(80): view('pages/servicos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ManutencaoPreventivaController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManutencaoPreventivaController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 21:20:45 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: manutencao-preventiva]
+in APPPATH\Views\pages\servicos.php on line 51.
+ 1 APPPATH\Views\pages\servicos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 5 APPPATH\Controllers\ManutencaoPreventivaController.php(80): view('pages/servicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ManutencaoPreventivaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManutencaoPreventivaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 21:41:34 --> ErrorException: Undefined variable $textoExplicacao
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\pages\servicos.php on line 40.
+ 1 APPPATH\Views\pages\servicos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $textoExplicacao', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(76): view('pages/servicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 21:41:41 --> ErrorException: Undefined variable $textoExplicacao
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\pages\servicos.php on line 40.
+ 1 APPPATH\Views\pages\servicos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $textoExplicacao', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(76): view('pages/servicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 21:42:32 --> ErrorException: Undefined variable $textoExplicacao
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\pages\servicos.php on line 40.
+ 1 APPPATH\Views\pages\servicos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $textoExplicacao', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(76): view('pages/servicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 21:44:06 --> ErrorException: Undefined array key "titulo"
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\pages\servicos.php on line 40.
+ 1 APPPATH\Views\pages\servicos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\servicos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/servicos', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(77): view('pages/servicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 22:43:12 --> ErrorException: Undefined variable $textoContato
+[Method: GET, Route: /]
+in APPPATH\Views\templates\contato.php on line 3.
+ 1 APPPATH\Views\templates\contato.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $textoContato', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\contato.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\contato.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/contato', [], true)
+ 5 APPPATH\Controllers\HomeController.php(9): view('templates/contato')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 22:43:18 --> ErrorException: Undefined variable $textoContato
+[Method: GET, Route: /]
+in APPPATH\Views\templates\contato.php on line 3.
+ 1 APPPATH\Views\templates\contato.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $textoContato', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\contato.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\contato.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/contato', [], true)
+ 5 APPPATH\Controllers\HomeController.php(9): view('templates/contato')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 22:43:41 --> ErrorException: Undefined variable $textoContato
+[Method: GET, Route: /]
+in APPPATH\Views\templates\contato.php on line 3.
+ 1 APPPATH\Views\templates\contato.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $textoContato', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\contato.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\contato.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/contato', [], true)
+ 5 APPPATH\Controllers\HomeController.php(9): view('templates/contato')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-25 22:44:55 --> ErrorException: Undefined variable $textoContato
+[Method: GET, Route: /]
+in APPPATH\Views\templates\contato.php on line 3.
+ 1 APPPATH\Views\templates\contato.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $textoContato', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\contato.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\contato.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/contato', [], true)
+ 5 APPPATH\Controllers\HomeController.php(9): view('templates/contato')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

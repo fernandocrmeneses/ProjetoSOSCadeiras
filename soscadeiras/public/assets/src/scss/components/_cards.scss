@@ -103,7 +103,53 @@
         width: 100%;
         max-width: 1150px;
         display: inline-flex;
+    }
 
+    /*Cards Azuis */
+    .card-blue-general {
+        max-width: 320px;
+    }
+
+    .card-blue-general .card-title {
+        font-size: vars.$global_cabecalho_font_size;
+        font-weight: vars.$global_cabecalho_font_weight;
+        color: vars.$branco;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .card-blue {
+        display: flex;
+        align-items: center;
+        background-color: vars.$azulsos;
+        max-width: 320px;
+        width: 100%;
+        height: 128px;
+        border: solid 1px vars.$cinza3sos;
+        border-radius: 20px 20px;
+    }
+
+
+    .card-blue .card-body-blue {
+        text-align: center;
+    }
+
+    .card-blue .card-blue-text {
+        font-size: vars.$global_font_size;
+        line-height: 1.5;
+        color: vars.$branco;
+        margin: 0px 15px 0px 10px;
+    }
+
+    .card-blue .card-number {
+        font-size: 40px;
+        font-weight: vars.$global_font_weight;
+        color: vars.$cinza3sos;
+        margin-bottom: 10px;
+        max-width: 40px;
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        padding: 0px 0px 0px 20px;
     }
 }
 

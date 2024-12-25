@@ -129,7 +129,7 @@
                             Tudo para cadeiras
                             <span class="arrow"></span>
                             <ul class="submenu">
-                                <li>SOS Cadeiras Express</li>
+                                <li><a href="<?= base_url('sosexpress'); ?>">SOS Cadeiras Express</a></li>
                                 <li>Aluguel de Cadeiras</li>
                                 <li>Compra de Cadeiras</li>
                                 <li>Manutenção Corretiva</li>

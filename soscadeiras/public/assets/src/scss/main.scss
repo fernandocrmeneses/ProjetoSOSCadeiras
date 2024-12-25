@@ -2,12 +2,15 @@
 @use 'abstracts/mixins';
 @use 'base/reset';
 @use 'base/typography';
+@use 'base/default';
 @use 'components/button';
 @use 'components/links';
 @use 'components/icons';
 @use 'components/form';
 @use 'components/cards';
+@use 'components/box';
 @use 'layouts/header';
 @use 'layouts/home';
+@use 'layouts/tudocadeiras';
 @use 'layouts/footer';
 
