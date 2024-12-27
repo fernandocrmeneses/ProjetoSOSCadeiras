@@ -83,22 +83,22 @@ class AluguelCadeirasController extends BaseController
                 [
                     "title" => "Vocês atendem em todo o estado de São Paulo?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Trabalhamos em toda a Grande São Paulo. Para outras regiões do estado, consulte nossa equipe."
+                    "text" => ["Trabalhamos em toda a Grande São Paulo. Para outras regiões do estado, consulte nossa equipe."]
                 ],
                 [
                     "title" => "Posso personalizar a cor ou o tecido das cadeiras alugadas?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Temos alguns modelos que permitem essa personalização de cor. Verifique a disponibilidade no momento do orçamento."
+                    "text" => ["Temos alguns modelos que permitem essa personalização de cor. Verifique a disponibilidade no momento do orçamento."]
                 ],
                 [
                     "title" => "E se uma cadeira apresentar defeito durante o aluguel?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Fique tranquilo. Oferecemos manutenção inclusa e, se necessário, substituímos a cadeira por outra em perfeito estado. Para eventos, sempre enviamos algumas unidades extras para garantir que tudo ocorra perfeitamente."
+                    "text" => ["Fique tranquilo. Oferecemos manutenção inclusa e, se necessário, substituímos a cadeira por outra em perfeito estado. Para eventos, sempre enviamos algumas unidades extras para garantir que tudo ocorra perfeitamente."]
                 ],
                 [
                     "title" => "Existe quantidade mínima para aluguel?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Trabalhamos com contratos de no mínimo (X) cadeiras, mas condições especiais podem ser aplicadas para grandes volumes."
+                    "text" => ["Trabalhamos com contratos de no mínimo (X) cadeiras, mas condições especiais podem ser aplicadas para grandes volumes."]
                 ],
             ]
         ];

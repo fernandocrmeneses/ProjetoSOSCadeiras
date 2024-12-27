@@ -98,6 +98,7 @@
     }
 
     .rodape .logo-texto p {
-        width: 428px !important;
+        max-width: 100%;
+        text-align: center;
     }
 }

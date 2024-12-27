@@ -84,22 +84,22 @@ class ManutencaoCorretivaController extends BaseController
                 [
                     "title" => "Quais tipos de reparo vocês oferecem?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Fazemos reparos em rodízios, encostos, assentos, ajustes de altura, substituição de estofados, entre outros."
+                    "text" => ["Fazemos reparos em rodízios, encostos, assentos, ajustes de altura, substituição de estofados, entre outros."]
                 ],
                 [
                     "title" => "Quanto tempo leva para concluir o serviço?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "O tempo depende do tipo de reparo e da quantidade de cadeiras. Geralmente, o prazo é rápido, e informamos com clareza após o diagnóstico."
+                    "text" => ["O tempo depende do tipo de reparo e da quantidade de cadeiras. Geralmente, o prazo é rápido, e informamos com clareza após o diagnóstico."]
                 ],
                 [
                     "title" => "Vocês atendem em empresas e escritórios?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Sim, atendemos tanto residências quanto empresas, com opções de pacotes para grandes volumes."
+                    "text" => ["Sim, atendemos tanto residências quanto empresas, com opções de pacotes para grandes volumes."]
                 ],
                 [
                     "title" => "Posso solicitar orçamento sem compromisso?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Claro, nossa equipe está à disposição para fazer um orçamento detalhado antes de qualquer compromisso."
+                    "text" => ["Claro, nossa equipe está à disposição para fazer um orçamento detalhado antes de qualquer compromisso."]
                 ],
             ]
         ];

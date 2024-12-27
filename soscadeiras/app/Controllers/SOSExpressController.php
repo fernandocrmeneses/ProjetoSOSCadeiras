@@ -66,17 +66,17 @@ class SOSExpressController extends BaseController
                 [
                     "title" => "Quais regiões da Grande São Paulo são atendidas?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Atendemos São Paulo e toda a Grande São Paulo, incluindo ABC Paulista, Osasco, Guarulhos e Taboão da Serra."
+                    "text" => ["Atendemos São Paulo e toda a Grande São Paulo, incluindo ABC Paulista, Osasco, Guarulhos e Taboão da Serra."]
                 ],
                 [
                     "title" => "Quais peças estão disponíveis para substituição imediata?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Mantemos um estoque das peças mais solicitadas, como bases, rodízios, pistões e assentos, para facilitar o atendimento no mesmo dia."
+                    "text" => ["Mantemos um estoque das peças mais solicitadas, como bases, rodízios, pistões e assentos, para facilitar o atendimento no mesmo dia."]
                 ],
                 [
                     "title" => "O conserto é feito na hora?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Sim, sempre que possível, realizamos o conserto no local. Caso seja necessária uma peça que não esteja disponível no momento, agendamos uma segunda visita sem custos adicionais."
+                    "text" => ["Sim, sempre que possível, realizamos o conserto no local. Caso seja necessária uma peça que não esteja disponível no momento, agendamos uma segunda visita sem custos adicionais."]
                 ],
             ]
         ];

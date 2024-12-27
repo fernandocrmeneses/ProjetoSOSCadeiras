@@ -8,6 +8,11 @@
     background-color: vars.$azul2;
 }
 
+.background-dark-blue {
+
+    background-color: vars.$azulsos;
+}
+
 .background-white {
     background-color: vars.$branco;
 }
@@ -46,6 +51,10 @@
 
 .sem-bold {
     font-weight: normal;
+}
+
+.com-bold {
+    font-weight: vars.$global_cabecalho_font_weight;
 }
 
 .italico {

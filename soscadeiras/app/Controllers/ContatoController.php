@@ -82,24 +82,35 @@ class ContatoController extends BaseController
             ],
             'perguntas' => [
                 [
-                    "title" => "Quais tipos de reparo vocês oferecem?",
+                    "title" => "Como posso solicitar um orçamento ?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Fazemos reparos em rodízios, encostos, assentos, ajustes de altura, substituição de estofados, entre outros."
+                    "text" => [
+                        "Você pode solicitar um orçamento de três maneiras:",
+                        "WhatsApp: Envie uma mensagem para (11) 99666-1891 com os detalhes do serviço ou produto desejado.",
+                        "Formulário de Contato: Preencha o formulário disponível nesta página, incluindo todas as informações relevantes.",
+                        "E-mail: Envie um e-mail para contato@soscadeiras.com com as especificações do serviço ou produto, e nossa equipe retornará com um orçamento detalhado.",
+                        "Para serviços de tapeçaria e reforma de estofados, não se esqueça de anexar uma foto do item para um orçamento mais preciso."
+                    ]
                 ],
                 [
-                    "title" => "Quanto tempo leva para concluir o serviço?",
+                    "title" => "Quanto tempo demora para responder minha mensagem?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "O tempo depende do tipo de reparo e da quantidade de cadeiras. Geralmente, o prazo é rápido, e informamos com clareza após o diagnóstico."
+                    "text" => ["Respondemos em até 24 horas, garantindo agilidade e eficiência no atendimento."]
                 ],
                 [
                     "title" => "Vocês atendem em empresas e escritórios?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Sim, atendemos tanto residências quanto empresas, com opções de pacotes para grandes volumes."
+                    "text" => ["Sim, atendemos tanto residências quanto empresas, com opções de pacotes para grandes volumes."]
                 ],
                 [
-                    "title" => "Posso solicitar orçamento sem compromisso?",
+                    "title" => "Posso agendar uma visita técnica pelo WhatsApp?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Claro, nossa equipe está à disposição para fazer um orçamento detalhado antes de qualquer compromisso."
+                    "text" => ["Sim! Basta enviar uma mensagem com suas informações e detalhes da solicitação para o número (11) 99666-1891."]
+                ],
+                [
+                    "title" => "Qual é o horário de atendimento?",
+                    "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
+                    "text" => ["Nosso horário de atendimento é de segunda a sexta-feira das 9h às 17h, exceto feriados."]
                 ],
             ]
         ];

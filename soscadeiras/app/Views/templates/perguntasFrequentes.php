@@ -26,7 +26,9 @@
                                         <img src="<?= esc($pergunta['icon']) ?>" alt="Ícone">
                                     </div>
                                     <div class="text-toggle">
-                                        <p><?= esc($pergunta['text']) ?></p>
+                                        <?php foreach ($pergunta['text'] as $index => $resposta): ?>
+                                            <p style="padding-bottom:20px;"><?= esc($resposta) ?></p>
+                                        <?php endforeach; ?>
                                     </div>
                                 </div>
                             </div>

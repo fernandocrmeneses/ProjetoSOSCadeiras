@@ -89,17 +89,17 @@ class ReformaEstofadosController extends BaseController
                 [
                     "title" => "Posso escolher o tecido para a reforma?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Sim, oferecemos uma ampla gama de tecidos para que você escolha o que melhor se adapta ao seu estilo e necessidades."
+                    "text" => ["Sim, oferecemos uma ampla gama de tecidos para que você escolha o que melhor se adapta ao seu estilo e necessidades."]
                 ],
                 [
                     "title" => "Como saber qual é o melhor tecido para o meu estofado?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "A escolha depende do uso e do estilo desejado. Sempre orientamos os melhores tecidos de acordo com suas necessidades, garantindo durabilidade e beleza ao seu estofado."
+                    "text" => ["A escolha depende do uso e do estilo desejado. Sempre orientamos os melhores tecidos de acordo com suas necessidades, garantindo durabilidade e beleza ao seu estofado."]
                 ],
                 [
                     "title" => "A reforma de estofados é mais barata que comprar uma cadeira nova?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Nem sempre. O custo pode variar dependendo do estado, e dos materiais escolhidos. No entanto, reformar traz outras vantagens, como a possibilidade de personalizar o estofado ao seu gosto, preservar peças com valor sentimental e reduzir o impacto ambiental ao evitar o descarte de móveis."
+                    "text" => ["Nem sempre. O custo pode variar dependendo do estado, e dos materiais escolhidos. No entanto, reformar traz outras vantagens, como a possibilidade de personalizar o estofado ao seu gosto, preservar peças com valor sentimental e reduzir o impacto ambiental ao evitar o descarte de móveis."]
                 ],
             ]
         ];

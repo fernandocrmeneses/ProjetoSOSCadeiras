@@ -74,22 +74,22 @@ class ManutencaoPreventivaController extends BaseController
                 [
                     "title" => "Qual a frequência recomendada para a manutenção preventiva?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "A frequência depende do uso das cadeiras. Para cadeiras muito usadas, recomenda-se uma manutenção a cada 6 meses; em outros casos, pode ser anual."
+                    "text" => ["A frequência depende do uso das cadeiras. Para cadeiras muito usadas, recomenda-se uma manutenção a cada 6 meses; em outros casos, pode ser anual."]
                 ],
                 [
                     "title" => "Vocês oferecem contratos de manutenção preventiva para empresas?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Sim, temos pacotes especiais para empresas que precisam de manutenção regular em cadeiras de escritório."
+                    "text" => ["Sim, temos pacotes especiais para empresas que precisam de manutenção regular em cadeiras de escritório."]
                 ],
                 [
                     "title" => "Quais problemas são evitados com a manutenção preventiva?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "A manutenção preventiva previne desgastes em rodízios, ajuste de altura, bases e estrutura geral, evitando grandes reparos no futuro."
+                    "text" => ["A manutenção preventiva previne desgastes em rodízios, ajuste de altura, bases e estrutura geral, evitando grandes reparos no futuro."]
                 ],
                 [
                     "title" => "Posso combinar com outros serviços, como manutenção corretiva?",
                     "icon" => "dist/image/common/logo_perguntas_frequentes.svg",
-                    "text" => "Sim, a manutenção preventiva pode ser combinada com manutenções corretivas, ajustando as cadeiras que apresentarem qualquer problema."
+                    "text" => ["Sim, a manutenção preventiva pode ser combinada com manutenções corretivas, ajustando as cadeiras que apresentarem qualquer problema."]
                 ],
             ]
         ];
