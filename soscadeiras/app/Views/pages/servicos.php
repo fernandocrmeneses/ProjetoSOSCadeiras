@@ -89,11 +89,11 @@
                 </h4>
             </div>
         </div>
-        <div class="row cards-content-blue text-center ">
+        <div class="row cards-content-blue justify-content-center d-flex">
             <?php foreach ($cards as $card): ?>
                 <div class="col-12 col-sm-12 col-md-5 d-flex justify-content-center">
                     <div class="card-blue-general">
-                        <h5 class="card-title"><?= $card['title'] ?></h5>
+                        <h5 class="card-blue-title"><?= $card['title'] ?></h5>
                         <div class="card-blue">
                             <div class="card-number"><?= $card['number'] ?></div>
                             <div class="card-body-blue">
@@ -106,43 +106,4 @@
         </div>
     </div>
     <div class="content"></div>
-</div>
-<div class="background-white">
-    <div class="container">
-        <div class="pergunta-frequente-content">
-            <div class="row">
-                <div class="col-4 col-md-4"></div>
-                <div class="col-12 col-sm-6 col-md-8">
-                    <h4 class="content">
-                        <img src="<?= esc($perguntasFrequentes) ?>" />
-                    </h4>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3"></div>
-                <div class="col-12 col-sm-6 col-md-8">
-                    <div class="box-toggle-general">
-                        <?php foreach ($perguntas as $index => $pergunta): ?>
-                            <div class="box-toggle">
-                                <!-- Input escondido para controlar o toggle -->
-                                <input type="checkbox" id="toggle-<?= $index ?>" class="toggle-input" checked>
-                                <label for="toggle-<?= $index ?>" class="box-toggle-title">
-                                    <h6><?= esc($pergunta['title']) ?></h6>
-                                    <i class="btn-title"></i>
-                                </label>
-                                <div class="box-toggle-body">
-                                    <div class="image-toggle">
-                                        <img src="<?= esc($pergunta['icon']) ?>" alt="Ícone">
-                                    </div>
-                                    <div class="text-toggle">
-                                        <p><?= esc($pergunta['text']) ?></p>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 content"></div>
-            </div>
-        </div>
-    </div>
-</div>
 </div>

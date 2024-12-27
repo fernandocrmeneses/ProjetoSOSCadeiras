@@ -1,0 +1,14 @@
+CRITICAL - 2024-12-26 17:11:58 --> ErrorException: Undefined variable $perguntasFrequentes
+[Method: GET, Route: contato]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 8.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $perguntasFrequentes', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\ContatoController.php(12): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

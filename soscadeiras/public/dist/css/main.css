@@ -113,8 +113,24 @@ em {
   color: #ffffff;
 }
 
+.sem-bold {
+  font-weight: normal;
+}
+
+.italico {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .titulo-grande {
   font-size: 40px;
+}
+
+.alinhado-esquerda {
+  text-align: left;
 }
 
 /* ----------------------- BOTÕES ----------------------- */
@@ -536,11 +552,11 @@ i {
   .card-blue-general {
     max-width: 320px;
   }
-  .card-blue-general .card-title {
+  .card-blue-general .card-blue-title {
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
-    margin-bottom: 10px;
+    margin: 15px 0px;
     text-align: center;
   }
   .card-blue {
@@ -559,8 +575,9 @@ i {
   .card-blue .card-blue-text {
     font-size: 12px;
     line-height: 1.5;
-    color: #ffffff;
+    font-weight: 400;
     margin: 0px 15px 0px 10px;
+    color: #ffffff;
   }
   .card-blue .card-number {
     font-size: 40px;

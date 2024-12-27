@@ -44,6 +44,22 @@
     color: vars.$branco;
 }
 
+.sem-bold {
+    font-weight: normal;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 .titulo-grande {
     font-size: vars.$global_titulos_grandes;
+}
+
+.alinhado-esquerda {
+    text-align: left;
 }

@@ -6,6 +6,8 @@ class SOSExpressController extends BaseController
 {
     public function index(): string
     {
+        /* TODO: Necessário desenvolver o pattern Repository, temporariamente o conteudo esta na controller. 
+        Pois foi definido no projeto que no primeiro momento não teria nenhum sistema em backend. */
         $data = [
             'tituloPagina' => "Sua cadeira de volta à ação, sem sair do lugar.",
             'banner' => "dist/image/sosexpress/banner_sosexpress.svg",
@@ -78,6 +80,6 @@ class SOSExpressController extends BaseController
                 ],
             ]
         ];
-        return view('templates/header') . view('pages/servicos', $data) . view('templates/contato') . view('templates/footer');
+        return view('templates/header') . view('pages/servicos', $data) . view('templates/perguntasFrequentes') . view('templates/contato') . view('templates/footer');
     }
 }

@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class ManutencaoCorretivaController extends BaseController
+class ContatoController extends BaseController
 {
     public function index(): string
     {
@@ -103,6 +103,6 @@ class ManutencaoCorretivaController extends BaseController
                 ],
             ]
         ];
-        return view('templates/header') . view('pages/servicos', $data) . view('templates/perguntasFrequentes') . view('templates/contato') . view('templates/footer');
+        return view('templates/header') . view('pages/contatosos', $data) . view('templates/perguntasFrequentes') . view('templates/contato') . view('templates/footer');
     }
 }
