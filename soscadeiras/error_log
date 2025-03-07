@@ -1,0 +1,24 @@
+[17-Jan-2025 18:38:24 America/Fortaleza] PHP Warning:  require(/home1/drikab68/fernandocrm.com.br/public/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/drikab68/fernandocrm.com.br/public/index.php on line 50
+[17-Jan-2025 18:38:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/drikab68/fernandocrm.com.br/public/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/drikab68/fernandocrm.com.br/public/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home1/drikab68/fernandocrm.com.br/public/index.php on line 50
+[17-Jan-2025 18:38:26 America/Fortaleza] PHP Warning:  require(/home1/drikab68/fernandocrm.com.br/public/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/drikab68/fernandocrm.com.br/public/index.php on line 50
+[17-Jan-2025 18:38:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/drikab68/fernandocrm.com.br/public/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/drikab68/fernandocrm.com.br/public/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home1/drikab68/fernandocrm.com.br/public/index.php on line 50
+[17-Jan-2025 18:38:34 America/Fortaleza] PHP Warning:  require(/home1/drikab68/fernandocrm.com.br/public/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/drikab68/fernandocrm.com.br/public/index.php on line 50
+[17-Jan-2025 18:38:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/drikab68/fernandocrm.com.br/public/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/drikab68/fernandocrm.com.br/public/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home1/drikab68/fernandocrm.com.br/public/index.php on line 50
+[17-Jan-2025 18:38:34 America/Fortaleza] PHP Warning:  require(/home1/drikab68/fernandocrm.com.br/public/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/drikab68/fernandocrm.com.br/public/index.php on line 50
+[17-Jan-2025 18:38:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/drikab68/fernandocrm.com.br/public/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/drikab68/fernandocrm.com.br/public/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /home1/drikab68/fernandocrm.com.br/public/index.php on line 50
+[17-Jan-2025 18:47:56 America/Fortaleza] PHP Fatal error:  Cannot declare class Config\Paths, because the name is already in use in /home1/drikab68/fernandocrm.com.br/app/Config/Paths.php on line 21
+[17-Jan-2025 18:48:26 America/Fortaleza] PHP Fatal error:  Cannot declare class Config\Paths, because the name is already in use in /home1/drikab68/fernandocrm.com.br/app/Config/Paths.php on line 21
+[17-Jan-2025 18:52:04 America/Fortaleza] PHP Fatal error:  Cannot declare class Config\Paths, because the name is already in use in /home1/drikab68/fernandocrm.com.br/app/Config/Paths.php on line 21
+[17-Jan-2025 18:52:05 America/Fortaleza] PHP Fatal error:  Cannot declare class Config\Paths, because the name is already in use in /home1/drikab68/fernandocrm.com.br/app/Config/Paths.php on line 21

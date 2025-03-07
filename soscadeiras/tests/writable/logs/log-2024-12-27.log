@@ -1,0 +1,238 @@
+CRITICAL - 2024-12-27 15:15:28 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: contato]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\ContatoController.php(110): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:15:42 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: contato]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\ContatoController.php(110): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:17:20 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: contato]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\ContatoController.php(112): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:17:21 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: contato]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\ContatoController.php(112): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:17:56 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: contato]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\ContatoController.php(112): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:18:55 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: contato]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\ContatoController.php(112): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:22 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:24 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:24 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:24 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:24 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:24 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:24 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:25 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:25 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:25 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 15:54:37 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: sosexpress]
+in APPPATH\Views\templates\perguntasFrequentes.php on line 29.
+ 1 APPPATH\Views\templates\perguntasFrequentes.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\templates\\perguntasFrequentes.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('templates/perguntasFrequentes', [], true)
+ 5 APPPATH\Controllers\SOSExpressController.php(83): view('templates/perguntasFrequentes')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SOSExpressController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SOSExpressController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,56 @@
+CRITICAL - 2025-03-06 22:52:40 --> ErrorException: Undefined array key "descricaoCategoria"
+[Method: GET, Route: cases]
+in APPPATH\Views\pages\cases.php on line 44.
+ 1 APPPATH\Views\pages\cases.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descricaoCategoria"', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cases.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cases.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cases', [], true)
+ 5 APPPATH\Controllers\CasesController.php(141): view('pages/cases', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CasesController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CasesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 23:00:03 --> ErrorException: Undefined array key "descricaoThumb"
+[Method: GET, Route: cases]
+in APPPATH\Views\pages\cases.php on line 44.
+ 1 APPPATH\Views\pages\cases.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descricaoThumb"', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cases.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cases.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cases', [], true)
+ 5 APPPATH\Controllers\CasesController.php(161): view('pages/cases', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CasesController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CasesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 23:00:47 --> ErrorException: Undefined array key "descricaoThumb"
+[Method: GET, Route: cases]
+in APPPATH\Views\pages\cases.php on line 44.
+ 1 APPPATH\Views\pages\cases.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descricaoThumb"', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cases.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cases.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cases', [], true)
+ 5 APPPATH\Controllers\CasesController.php(161): view('pages/cases', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CasesController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CasesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 23:02:23 --> ErrorException: Undefined array key "descricaoThumb"
+[Method: GET, Route: cases]
+in APPPATH\Views\pages\cases.php on line 44.
+ 1 APPPATH\Views\pages\cases.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descricaoThumb"', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cases.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cases.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cases', [], true)
+ 5 APPPATH\Controllers\CasesController.php(161): view('pages/cases', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CasesController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CasesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

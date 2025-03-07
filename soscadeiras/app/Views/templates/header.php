@@ -7,12 +7,22 @@
     <title>SOS Cadeiras</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&display=swap" rel="stylesheet">
     <!-- Link para o CSS compilado -->
     <link rel="stylesheet" href="<?= base_url('dist/css/main.css'); ?>">
+    
+    <!-- <link href="<?= base_url('dist/vendor/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('dist/vendor/bootstrap-icons/bootstrap-icons.css'); ?>" rel="stylesheet"> -->
+    <link href="<?= base_url('dist/vendor/boxicons/css/boxicons.min.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('dist/vendor/glightbox/css/glightbox.min.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('dist/vendor/swiper/swiper-bundle.min.css'); ?>" rel="stylesheet">
+   
+
 </head>
+
 <body>
     <header>
         <div class="top-header">
@@ -101,49 +111,49 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid d-flex justify-content-center bloco-menu">
                 <div class="logo">
-                    <a href="#" class="navbar-brand">
+                    <a href="<?= base_url('/'); ?>" class="navbar-brand">
                         <img src="<?= base_url('dist/image/logosvg.svg'); ?>">
                     </a>
-                    <!-- Botão para menu colapsável em dispositivos menores -->
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                 </div>
-                <div class="collapse navbar-collapse row">
+                <!-- Botão para menu colapsável em dispositivos menores -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" id="menu-toggle"></span>
+                </button>
+                <div class="navbar-collapse navbar-collapse-mobile row">
                     <div class="col-sm-2 col-md-2 col-lg-2"></div>
                     <ul class="navbar-nav col-sm-11 col-md-11 col-lg-11">
                         <li class="nav-item">
-                            <a href="#" class=" menu-button dark">Inicio</a>
+                            <a href="<?= base_url('/'); ?>" class="menu-button item-menu-mobile dark">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="menu-button white" href="#">Sobre nós</a>
+                            <a class="menu-button white" href="<?= base_url('sobre-nos'); ?>">Sobre nós</a>
                         </li>
-                        <li class="menu-item with-icon">
+                        <li class="menu-item with-icon" id="dropdownTudoCadeiras">
                             Tudo para cadeiras
                             <span class="arrow"></span>
-                            <ul class="submenu">
-                                <li><a href="<?= base_url('sosexpress'); ?>">SOS Cadeiras Express</a></li>
-                                <li>Aluguel de Cadeiras</li>
-                                <li>Compra de Cadeiras</li>
-                                <li>Manutenção Corretiva</li>
-                                <li>Manutenção Preventiva</li>
+                            <ul class="submenu" id="dropdownMenu">
+                                <li><a class="azul-escuro" href="<?= base_url('sosexpress'); ?>">SOS Cadeiras Express</a></li>
+                                <li><a class="azul-escuro" href="<?= base_url('aluguel-cadeiras'); ?>">Aluguel de Cadeiras</a></li>
+                                <li><a class="azul-escuro" href="<?= base_url('compra-cadeiras'); ?>">Compra de Cadeiras</a></li>
+                                <li><a class="azul-escuro" href="<?= base_url('manutencao-corretiva'); ?>">Manutenção Corretiva</a></li>
+                                <li><a class="azul-escuro" href="<?= base_url('manutencao-preventiva'); ?>">Manutenção Preventiva</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="menu-button white" href="#">Cases</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="menu-button white">Contato</a>
+                            <a href="<?= base_url('contato'); ?>" class="menu-button white">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="menu-button btn-custom orange">Faça sua cotação</a>
+                            <a href="<?= base_url('contato'); ?>" class="menu-button btn-custom orange item-menu-mobile">Faça sua cotação</a>
                         </li>
                     </ul>
                 </div>

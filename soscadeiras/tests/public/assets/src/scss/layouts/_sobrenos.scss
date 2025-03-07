@@ -1,0 +1,89 @@
+@use '../abstracts/variables' as vars;
+@media only screen and (max-width: 1920px) {
+    .missao-visao {
+        padding-top: 40px;
+    }
+
+    .missao,
+    .visao {
+        padding-top: 70px;
+    }
+
+    .missao p,
+    .visao p {
+        font-weight: vars.$global_cabecalho_font_weight;
+    }
+
+    .lista-jornada {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .lista-jornada .item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .lista-jornada .bullet-jornada {
+        background: url("../image/sprites/icons_bullet_orange01.png") no-repeat 0px 0px;
+        width: 45px;
+        height: 32px;
+        // background-size: 380px;
+        margin-right: 15px;
+    }
+
+    .lista-jornada .item .bullet-jornada.seta {
+        background-position: -22px 0px;
+        width: 32px;
+    }
+
+    .lista-jornada .item .bullet-jornada.cadeira {
+        background-position: -44px 0px;
+        margin-left: -6px;
+        width: 32px;
+    }
+
+    .lista-jornada .item .bullet-jornada.ferramenta {
+        background-position: -73px 0px;
+    }
+
+    .lista-jornada .item .bullet-jornada.planta {
+        background-position: -98px 0px;
+        padding: 2px;
+    }
+
+    .lista-jornada .item .bullet-jornada.lampada {
+        background-position: -123px 0px;
+    }
+
+
+    .lista-jornada .item p {
+        font-size: vars.$global_font_size;
+        line-height: 1.6;
+        color: #333333;
+        margin: 0;
+    }
+
+    .background-custom {
+        background: url("../image/sobrenos/banner_bg.jpg") no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 428px) {
+    .lista-jornada .item .bullet-jornada {
+        display: none;
+    }
+
+    .lista-jornada .item {
+        text-align: center;
+    }
+
+    .imagem-mao-sobre-nos {
+        display: none;
+    }
+}

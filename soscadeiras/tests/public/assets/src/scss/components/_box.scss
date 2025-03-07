@@ -1,0 +1,93 @@
+@use '../abstracts/variables' as vars;
+
+.box-toggle-general {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-toggle {
+    display: block;
+    max-width: 718px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box-toggle-title {
+    background-color: vars.$cinzaazuladosos;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 8px 8px 0 0;
+}
+
+.box-toggle-title h6 {
+    width: 100%;
+}
+
+.box-toggle-title .btn-title {
+    background: url("../image/sprites/icons_bullet_white01.png") no-repeat -312px 0px;
+    width: 24px;
+    height: 24px;
+}
+
+.box-toggle-body {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: vars.$cinza4sos;
+    border-radius: 0 0 8px 8px;
+    gap: 16px;
+}
+
+.image-toggle img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-toggle p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333333;
+    margin: 0;
+}
+
+/* Esconde o input do toggle */
+.toggle-input {
+    display: none;
+}
+
+/* Por padrão, o corpo do toggle estará visível */
+.box-toggle-body {
+    display: flex;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+/* Esconde o conteúdo do toggle quando o input for desmarcado */
+.toggle-input:not(:checked)+.box-toggle-title+.box-toggle-body {
+    display: none;
+}
+
+.toggle-input:not(:checked)+.box-toggle-title {
+    background-color: vars.$azul0sos;
+}
+
+
+/* Botão do título (ícone de seta para cima/baixo) */
+.btn-title {
+    background: url("../image/sprites/icons_bullet_white01.png") no-repeat -276px 0px;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+/* Gira o botão quando o toggle está fechado */
+.toggle-input:not(:checked)+.box-toggle-title .btn-title {
+    transform: rotate(180deg);
+}

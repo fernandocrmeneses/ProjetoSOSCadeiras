@@ -1,0 +1,380 @@
+@use '../abstracts/variables' as vars;
+@media only screen and (max-width: 1920px) {
+    .banner-home {
+        max-height: 617px;
+    }
+
+    .banner-home img {
+        width: 100%;
+    }
+
+    .itens-servicos {
+        display: flex;
+        flex-wrap: wrap;
+        /* Permite quebra de linha */
+        justify-content: center;
+        /* Centraliza os elementos horizontalmente */
+        gap: 30px;
+        /* Espaçamento entre os itens */
+        width: 100%;
+        /* Garante que a largura seja responsiva */
+        max-width: 1250px;
+        /* Limita a largura máxima */
+        margin: 0 auto;
+        /* Centraliza o container */
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .quem-somos {
+        background: vars.$azulsos;
+        width: 100%;
+        clear: both;
+    }
+
+    .section-title {
+        color: vars.$cinzaazuladosos;
+        font-size: 45px;
+        font-weight: vars.$global_cabecalho_font_weight;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .info-box {
+        background-color: transparent;
+        text-align: left;
+    }
+
+    .info-box h3 {
+        font-weight: vars.$global_cabecalho_font_weight;
+        font-size: vars.$global_h3_titulos_size;
+        margin-bottom: 1rem;
+        color: vars.$branco;
+    }
+
+    .info-box p {
+        font-size: 16px;
+        color: vars.$cinza4sos;
+        width: 100%;
+        max-width: 330px;
+    }
+
+    .info-box strong {
+        font-weight: bold;
+    }
+
+    .botao-saiba-mais {
+        margin-left: 6% !important;
+    }
+
+    .cases {
+        width: 100%;
+        background-color: vars.$cinza4sos;
+    }
+
+    .titulos-azuis,
+    .titulos-laranjas {
+
+        font-size: vars.$global_h3_titulos_size;
+        font-style: normal;
+        font-weight: vars.$global_cabecalho_font_weight;
+        line-height: normal;
+        text-align: center;
+
+    }
+
+    .titulos-azuis {
+        color: vars.$cinzaazuladosos;
+    }
+
+    .titulos-laranjas {
+        color: vars.$laranjasos;
+        text-align: left;
+    }
+
+    .titulos-azuis .texto-azul-claro {
+        color: vars.$cinza3sos;
+    }
+
+    .paragrafo-titulo {
+        font-size: vars.$global_font_size_texto;
+        font-style: normal;
+        font-weight: vars.$global_font_weight;
+        line-height: normal;
+    }
+
+    .paragrafo-titulo.paragrafo-servicos {
+        margin-left: 41px;
+    }
+
+    .cases .cases-content {
+        padding: 40px 0px;
+    }
+
+    .menu-button.btn-custom.default.todas-avaliacoes {
+        margin-left: 50px;
+    }
+
+    .empresas {
+        background-color: vars.$branco;
+        width: 100%;
+    }
+
+    .empresas .empresas-content {
+        padding: 52px 0px;
+    }
+
+    .empresas .empresas-content .empresas-parceiras {
+        padding: 40px 0px 40px 0px
+    }
+
+    .empresas .empresas-content #thales {
+        padding-top: 10px;
+    }
+
+    .empresas .empresas-content .bottom-empresas {
+        width: 50%;
+        height: 5px;
+        display: block;
+        background-color: vars.$cinza3sos;
+        border: none;
+        margin-top: 52px;
+    }
+
+    .beneficios .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .beneficios .row.align-items-center {
+        align-items: center;
+    }
+
+    .beneficios .lista-beneficios ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .beneficios .lista-beneficios li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+
+    }
+
+    .beneficios .lista-beneficios .item {
+        margin: 28px 0px 0px 0px;
+    }
+
+    .beneficios .lista-beneficios div {
+        display: inline-block;
+    }
+
+    .beneficios .lista-beneficios .item .texto {
+        max-width: 455px;
+        padding: 0px 16px;
+    }
+
+    .beneficios .lista-beneficios h3 {
+        color: vars.$cinza3sos;
+        font-size: vars.$global_cabecalho_font_size;
+        font-style: normal;
+        font-weight: vars.$global_font_weight;
+    }
+
+    .beneficios .lista-beneficios p {
+        font-size: vars.$global_font_size;
+        font-weight: vars.$global_font_weight;
+    }
+
+    .beneficios .cadeira-vetor img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .beneficios .lista-beneficios ul li.item .icons {
+        background: url("../image/sprites/icons_beneficios.png") no-repeat 0px 0px;
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+
+    .beneficios .lista-beneficios ul li.item .icons.caixa-ferramenta {
+        background-position: -159px 0px;
+    }
+
+    .beneficios .lista-beneficios ul li.item .icons.homem {
+        background-position: -79px 0px;
+    }
+
+    .beneficios .lista-beneficios ul li.item .icons.folha {
+        background-position: -238px 0px;
+    }
+
+    .beneficios .lista-beneficios ul li.item .icons.sofa {
+        background-position: 0px 0px;
+    }
+
+    .transformacoes {
+        width: 100%;
+        background-color: vars.$cinza4sos;
+    }
+
+    .transformacoes-content {
+        padding: 40px 0px;
+    }
+
+    .transformacoes-content .row .col-md-3 {
+        width: 20%;
+    }
+
+    .transformacoes-content .row .antes-depois .cadeira_hover {
+        display: none;
+        width: 231px;
+        height: auto;
+        // margin: -5px 0px 0px -6px;
+    }
+
+    .transformacoes-content .row .antes-depois .cadeira {
+        width: 235px;
+        height: auto;
+        z-index: 999;
+        // margin: -5px 0px 0px -6px;
+    }
+
+    .transformacoes-content .row .antes-depois:hover .cadeira_hover {
+        display: block;
+    }
+
+    .transformacoes-content .row .antes-depois:hover .cadeira {
+        display: none;
+    }
+
+    .transformacoes-content .row .antes-depois p {
+        color: vars.$azul2;
+    }
+
+    .transformacoes-content .row .antes-depois:hover strong {
+        color: vars.$laranja0sos;
+    }
+
+    .contato-home {
+        width: 100%;
+        background-color: vars.$azulsos;
+    }
+
+    .contato-home-content {
+        padding: 40px 0px;
+    }
+
+    .contato-home-content .row.background-claro {
+        background-color: vars.$azul2;
+        border-radius: 8px 8px;
+        border: solid 1px vars.$azul2;
+        padding: 32px;
+        max-width: 1016px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .contato-home-content .textos-contato {
+        max-width: 261px;
+        width: 100%;
+        position: relative;
+        left: 224px;
+        top: 131px;
+    }
+
+    .contato-home-content .paragrafo-contato {
+        color: vars.$branco;
+        font-weight: vars.$global_cabecalho_font_weight;
+        font-size: vars.$global_font_size_texto;
+    }
+}
+
+/*tablets*/
+@media only screen and (max-width: 752px) {}
+
+/*smartphone*/
+@media only screen and (max-width: 428px) {
+    .banner {
+        max-height: 617px;
+        width: 100%;
+    }
+
+    .itens-servicos {
+        width: 100%;
+        max-height: 2630px;
+    }
+
+    .cards-esquerda,
+    .cards-direita {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .info-box {
+        text-align: center;
+    }
+
+    .info-box p {
+        max-width: 100% !important;
+        margin: auto 0;
+    }
+
+    .botao-saiba-mais {
+        margin-left: 0% !important;
+    }
+
+    .info-box h3 {
+        margin-top: 10px;
+    }
+
+    .titulos-azuis,
+    .titulos-laranjas {
+
+        font-size: vars.$global_h3_titulos_size;
+        font-style: normal;
+        font-weight: vars.$global_cabecalho_font_weight;
+        line-height: normal;
+        text-align: center;
+
+    }
+
+    .paragrafo-titulo.paragrafo-servicos {
+        text-align: center;
+        margin: auto 0;
+        display: flex;
+        line-height: 30px;
+        padding: 40px 0px;
+    }
+
+    .empresas .empresas-content .empresas-parceiras-smartphone {
+        padding-top: 40px;
+    }
+
+    .empresas .empresas-content .bottom-empresas {
+        width: 100%;
+    }
+
+    .transformacoes-content .row .col-md-3 {
+        width: 100% !important;
+    }
+
+    .beneficios .lista-beneficios ul li.item .icons {
+        display: none;
+    }
+
+    .beneficios .beneficios-content .titulos-laranjas {
+        text-align: center;
+    }
+
+    .contato-home-content .textos-contato, .contato-home-content img{
+        display: none;
+    }
+}

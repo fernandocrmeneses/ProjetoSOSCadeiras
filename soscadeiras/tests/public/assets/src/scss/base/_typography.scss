@@ -1,0 +1,38 @@
+@use "../abstracts/variables" as vars;
+
+// Fonte padrão do site
+
+
+body,
+a,
+span {
+  font-family: Montserrat;
+}
+
+body {
+  font-size: vars.$global_font_size;
+  line-height: 1.5;
+  color: vars.$cinza1sos;
+
+}
+
+a {
+  font-size: vars.$global_font_size;
+  font-style: normal;
+}
+
+// Cabeçalhos
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: vars.$global_cabecalho_font_size;
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+
+em {
+  font-style: italic;
+}

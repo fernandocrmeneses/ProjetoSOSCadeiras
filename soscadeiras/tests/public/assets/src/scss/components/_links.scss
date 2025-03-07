@@ -1,0 +1,10 @@
+@use '../abstracts/variables' as vars;
+
+a {
+    text-decoration: none;
+    line-height: normal;
+}
+
+a.links {
+    color: vars.$branco;
+}

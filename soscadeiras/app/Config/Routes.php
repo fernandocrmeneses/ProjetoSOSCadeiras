@@ -13,3 +13,5 @@ $routes->get('/reforma-estofados', 'ReformaEstofadosController::index');
 $routes->get('/aluguel-cadeiras', 'AluguelCadeirasController::index');
 $routes->get('/contato', 'ContatoController::index');
 $routes->get('/sobre-nos', 'SobreNosController::index');
+$routes->get('/compra-cadeiras', 'CompraCadeirasController::index');
+$routes->get('/cases', 'CasesController::index');

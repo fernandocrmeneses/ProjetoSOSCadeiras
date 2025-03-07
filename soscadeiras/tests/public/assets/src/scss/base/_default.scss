@@ -1,0 +1,74 @@
+@use '../abstracts/variables' as vars;
+
+.background-gray {
+    background-color: vars.$cinza4sos;
+}
+
+.background-blue {
+    background-color: vars.$azul2;
+}
+
+.background-dark-blue {
+
+    background-color: vars.$azulsos;
+}
+
+.background-white {
+    background-color: vars.$branco;
+}
+
+.content {
+    padding: 40px 0px;
+}
+
+.content-30 {
+    padding: 30px 0px;
+}
+
+.titulos {
+    font-size: vars.$global_h3_titulos_size;
+    font-weight: vars.$global_cabecalho_font_weight;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.titulos.azul-claro {
+    color: vars.$cinza3sos;
+}
+
+.titulos.azul-escuro {
+    color: vars.$cinzaazuladosos;
+}
+
+.escuro {
+    color: vars.$azulsos;
+}
+
+.branco {
+    color: vars.$branco;
+}
+
+.sem-bold {
+    font-weight: normal;
+}
+
+.com-bold {
+    font-weight: vars.$global_cabecalho_font_weight;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.titulo-grande {
+    font-size: vars.$global_titulos_grandes;
+}
+
+.alinhado-esquerda {
+    text-align: left;
+}

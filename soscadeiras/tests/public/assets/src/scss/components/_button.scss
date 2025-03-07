@@ -1,0 +1,281 @@
+@use '../abstracts/variables' as vars;
+
+/* ----------------------- BOTÕES ----------------------- */
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  max-width: 300px;
+}
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px 30px 10px 30px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  /* Remove sublinhado de links */
+  transition: all 0.3s ease;
+  border: none;
+  outline: none;
+}
+
+/* Botão com fundo escuro */
+.menu-button.dark {
+  background-color: #162133;
+  color: #fff;
+}
+
+.menu-button.dark:hover {
+  background-color: #1c2b4a;
+}
+
+/* Botão com fundo azul */
+.menu-button.blue {
+  background-color: #0099ff;
+  color: #fff;
+}
+
+.menu-button.blue:hover {
+  background-color: #007acc;
+}
+
+/* Botão com fundo branco */
+.menu-button.white {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-button.white {
+  color: vars.$azul1sos;
+}
+
+.menu-button.white:hover,
+.menu-item:hover {
+  background-color: vars.$cinzaazuladosos;
+  color: vars.$branco;
+}
+
+.menu-button.btn-custom {
+  margin-left: 1%;
+  border-radius: 5px 5px;
+  width: 100%;
+  max-width: 262px;
+}
+
+.menu-button.btn-custom.default {
+  border: solid 1px vars.$azulsos;
+}
+
+.menu-button.btn-custom.white {
+  border: solid 1px vars.$branco;
+  background-color: vars.$branco;
+  color: vars.$azulsos;
+}
+
+.menu-button.btn-custom.gray {
+  background-color: vars.$cinza4sos;
+  border: solid 1px vars.$cinza3sos;
+}
+
+.menu-button.btn-custom.blue {
+  background-color: vars.$cinzaazuladosos;
+  border: solid 1px vars.$azulsos;
+}
+
+.menu-button.btn-custom.default,
+.menu-button.btn-custom.gray {
+  color: vars.$azulsos;
+}
+
+.menu-button.btn-custom.orange {
+  background-color: vars.$laranjasos;
+  border-bottom: 1px solid vars.$laranja0sos;
+}
+
+.menu-button.btn-custom.orange,
+.menu-button.btn-custom.blue {
+  color: vars.$branco;
+}
+
+.menu-button.btn-custom.desable {
+  background-color: vars.$cinza4sos;
+  color: vars.$cinza1sos;
+}
+
+.menu-button.btn-custom.default:hover {
+  color: vars.$azul2;
+  background-color: vars.$branco;
+}
+
+.menu-button.btn-custom.orange:hover {
+  background-color: vars.$azulsos;
+}
+
+.menu-button.btn-custom.white:hover {
+  background-color: vars.$cinza4sos;
+  color: vars.$laranjasos;
+  border: solid 1px vars.$laranjasos;
+}
+
+/* Adiciona seta para botões */
+.menu-button.with-icon::after {
+  content: '';
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid currentColor;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+/* ----------------------- MENU ----------------------- */
+.menu-container {
+  width: 300px;
+}
+
+/* Estilo principal do menu */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  background-color: vars.$branco;
+  color: vars.$azul1sos;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item .arrow {
+  content: '';
+  display: inline-block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid vars.$azul1sos;
+  margin-left: 10px;
+}
+
+.menu-item .arrow:hover {
+  background-color: vars.$branco;
+}
+
+/* Submenu oculto inicialmente */
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 0;
+  top: calc(70% + 3px);
+  width: 180px;
+  display: none;
+  z-index: 10;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: normal;
+}
+
+/* Estilo dos itens do submenu */
+.submenu li {
+  font-size: 12px;
+  color: #162133;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.submenu li:last-child {
+  border-bottom: none;
+}
+
+/* Cor de destaque */
+.submenu li.highlight {
+  background-color: #0099ff;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Hover para os itens do submenu */
+.submenu li:hover {
+  background-color: #f2f2f2;
+}
+
+/* Exibe o submenu ao passar o mouse no item principal */
+.menu-item:hover .submenu {
+  display: block;
+}
+
+/* Responsividade */
+@media (max-width: 428px) {
+  .menu-button{
+    max-width: 300px !important;
+  }
+  .menu-container {
+    width: 100%;
+  }
+
+  .menu-item {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .submenu li {
+    font-size: 12px;
+  }
+}
+
+/* ----------------------- RESPONSIVIDADE ----------------------- */
+@media (max-width: 1440px) {
+
+  .menu-container,
+  .menu {
+    width: 100%;
+  }
+
+  .menu-button {
+    display: flex;
+    height: 40px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .submenu li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .menu-container,
+  .menu {
+    width: 100%;
+  }
+
+  .menu-button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .submenu li {
+    font-size: 13px;
+  }
+}
