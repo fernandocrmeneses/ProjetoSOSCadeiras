@@ -147,7 +147,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="menu-button white" href="#">Cases</a>
+                            <a class="menu-button white" href="<?= base_url('cases'); ?>">Cases</a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('contato'); ?>" class="menu-button white">Contato</a>

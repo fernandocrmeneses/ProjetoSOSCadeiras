@@ -106,6 +106,7 @@
 <script src="<?= base_url('dist/vendor/swiper/swiper-bundle.min.js'); ?>"></script>
 <script src="<?= base_url('dist/vendor/waypoints/noframework.waypoints.js'); ?>"></script>
 <script src="<?= base_url('dist/js/galeria.js'); ?>"></script>
+<script src="<?= base_url('dist/js/cadeiras_novas.js'); ?>"></script>
 </body>
 
 </html>

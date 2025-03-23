@@ -109,6 +109,10 @@ em {
   color: #3972b7;
 }
 
+.titulos.laranja {
+  color: #f97e3c;
+}
+
 .escuro {
   color: #183149;
 }
@@ -1546,6 +1550,95 @@ i {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.cadeiras-thumbs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 1rem 0;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.cadeiras-thumbs .item-thumbs {
+  background: url("../image/sprites/cadeiras_novas.png") no-repeat 0px 0px;
+  list-style: none;
+  display: inline-block;
+  width: 92.242px;
+  height: 92.242px;
+  cursor: pointer;
+}
+
+.cadeiras-thumbs .item-thumbs.active,
+.cadeiras-thumbs .item-thumbs:hover {
+  border: solid 5px #f97e3c;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-1 {
+  background-position: 0px -15px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-2 {
+  background-position: -110px -15px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-3 {
+  background-position: -220px -15px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-4 {
+  background-position: -330px -15px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-5 {
+  background-position: -440px -15px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-6 {
+  background-position: -550px -15px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-1:hover {
+  background-position: -5px -20px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-2:hover {
+  background-position: -115px -20px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-3:hover {
+  background-position: -225px -20px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-4:hover {
+  background-position: -335px -20px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-5:hover {
+  background-position: -445px -20px;
+}
+
+.cadeiras-thumbs .item-thumbs.cadeira-6:hover {
+  background-position: -555px -20px;
+}
+
+.banner_cadeira {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+  height: 100%; /* define altura se necessário */
+  text-align: center; /* garante alinhamento de conteúdo */
+}
+
+.conteudo_cadeiras {
+  display: none;
+}
+
+.conteudo_cadeiras.active {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */

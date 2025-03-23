@@ -9,7 +9,7 @@ class CompraCadeirasController extends BaseController
         /* TODO: Necessário desenvolver o pattern Repository, temporariamente o conteudo esta na controller. 
         Pois foi definido no projeto que no primeiro momento não teria nenhum sistema em backend. */
         $data = [
-            'tituloPagina' => "Invista em cadeiras que elevam o bem-estar e a produtividade.",
+            'tituloPagina' => "Compra de Cadeiras",
             'banner' => "dist/image/compracadeiras/banner_compra.png",
             'animacao' => "dist/image/gifs/gifsos2.gif",
             'perguntasFrequentes' => "dist/image/common/perguntas_frequentes.svg",
@@ -19,7 +19,9 @@ class CompraCadeirasController extends BaseController
                 'subtituloContato' => "Solicite seu orçamento agora."
             ],
             'paragrafos' => [
-                "Descubra nossa linha SOS Custom, com modelos que combinam ergonomia, durabilidade e design. Personalize sua cadeira com uma ampla seleção de tecidos, cores e acabamentos, projetados para oferecer conforto e estilo a qualquer ambiente, seja corporativo ou residencial.",
+                "Trabalhar com conforto e ergonomia é essencial para a sua saúde e produtividade, nossa linha de cadeiras de escritório oferece design moderno, ajustes personalizados e materiais de alta qualidade, garantindo o suporte ideal para longas jornadas de trabalho.",
+                "Descubra a cadeira perfeita para você e transforme o seu ambiente de trabalho, invista em cadeiras que proporcionam bem-estar e produtividade e traga mais conforto e ergonomia para o seu dia a dia",
+                "Encontre a cadeira Ideal para o seu estilo e necessidade"
             ],
             'textoExplicacao' => [
                 'titulo' => 'O que é o serviço de Compra de Cadeiras?',

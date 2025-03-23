@@ -1,0 +1,84 @@
+CRITICAL - 2025-03-23 18:45:14 --> ErrorException: Undefined variable $subTituloCadeiras
+[Method: GET, Route: cadeiras-novas]
+in APPPATH\Views\pages\cadeiraNova.php on line 57.
+ 1 APPPATH\Views\pages\cadeiraNova.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subTituloCadeiras', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cadeiraNova', [], true)
+ 5 APPPATH\Controllers\CadeiraNovaController.php(140): view('pages/cadeiraNova', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CadeiraNovaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadeiraNovaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 18:46:15 --> ErrorException: Undefined variable $subTituloCadeiras
+[Method: GET, Route: cadeiras-novas]
+in APPPATH\Views\pages\cadeiraNova.php on line 57.
+ 1 APPPATH\Views\pages\cadeiraNova.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subTituloCadeiras', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cadeiraNova', [], true)
+ 5 APPPATH\Controllers\CadeiraNovaController.php(140): view('pages/cadeiraNova', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CadeiraNovaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadeiraNovaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 18:47:24 --> ErrorException: Undefined variable $subTituloCadeiras
+[Method: GET, Route: cadeiras-novas]
+in APPPATH\Views\pages\cadeiraNova.php on line 57.
+ 1 APPPATH\Views\pages\cadeiraNova.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subTituloCadeiras', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cadeiraNova', [], true)
+ 5 APPPATH\Controllers\CadeiraNovaController.php(140): view('pages/cadeiraNova', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CadeiraNovaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadeiraNovaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 18:49:43 --> ErrorException: Undefined variable $subTituloCadeiras
+[Method: GET, Route: cadeiras-novas]
+in APPPATH\Views\pages\cadeiraNova.php on line 57.
+ 1 APPPATH\Views\pages\cadeiraNova.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subTituloCadeiras', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cadeiraNova', [], true)
+ 5 APPPATH\Controllers\CadeiraNovaController.php(140): view('pages/cadeiraNova', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CadeiraNovaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadeiraNovaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 18:50:46 --> ErrorException: Array to string conversion
+[Method: GET, Route: cadeiras-novas]
+in APPPATH\Views\pages\cadeiraNova.php on line 57.
+ 1 APPPATH\Views\pages\cadeiraNova.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cadeiraNova', [], true)
+ 5 APPPATH\Controllers\CadeiraNovaController.php(140): view('pages/cadeiraNova', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CadeiraNovaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadeiraNovaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 18:51:57 --> ErrorException: Attempt to read property "subTituloCadeiras" on array
+[Method: GET, Route: cadeiras-novas]
+in APPPATH\Views\pages\cadeiraNova.php on line 57.
+ 1 APPPATH\Views\pages\cadeiraNova.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "subTituloCadeiras" on array', 'C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\soscadeiras\\app\\Views\\pages\\cadeiraNova.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cadeiraNova', [], true)
+ 5 APPPATH\Controllers\CadeiraNovaController.php(140): view('pages/cadeiraNova', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CadeiraNovaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadeiraNovaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
